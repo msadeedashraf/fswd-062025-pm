@@ -151,110 +151,6 @@ Understanding programming languages is key to becoming a developer. This guide b
 ---
 
 
-# 🌐 Beginner Guide to Web Servers, Architectures, and Communication Models
-
-This guide introduces core web technologies and architecture concepts to help beginners understand how modern web applications are built and deployed.
-
----
-
-## 🧭 What is a Web Server?
-
-A **web server** is a software or hardware system that delivers web content (such as HTML pages, images, and APIs) to clients (browsers or applications) over the internet or intranet.
-
-### 🔧 Common Uses of Web Servers
-- Hosting websites
-- Serving REST APIs for applications
-- Load balancing
-- SSL/TLS security management
-- Content caching
-
-### 🖥️ Popular Web Servers
-
-| Web Server | Description | Platform |
-|------------|-------------|----------|
-| **Apache HTTP Server** | Open-source, flexible, widely used | Cross-platform |
-| **Nginx** | Lightweight, high performance, ideal for static content & reverse proxy | Cross-platform |
-| **Microsoft IIS** | Windows-based, integrates with .NET stack | Windows only |
-
----
-
-## 🧑‍💻 Client-Server Architecture
-
-In this model:
-- **Client**: Requests resources or services (e.g., browsers, mobile apps).
-- **Server**: Provides resources (e.g., web pages, database data).
-
-Client-server enables **separation of concerns**, scalability, and distributed computing.
-
----
-
-## 🏗️ N-Tier Architecture
-
-N-Tier (multi-tier) architecture divides the system into multiple layers or tiers.
-
-### Common Layers:
-1. **Presentation Layer** – UI (React, Angular, etc.)
-2. **Application/Business Logic Layer** – Processes commands, logic (Node.js, .NET, Java)
-3. **Data Layer** – Handles data operations (SQL, MongoDB, etc.)
-
-Benefits:
-- Better maintainability
-- Scalability
-- Separation of concerns
-
----
-
-## 🔀 MVC vs MVVM Architecture
-
-### 🔸 MVC (Model-View-Controller)
-- **Model**: Manages data and business logic
-- **View**: UI presentation layer
-- **Controller**: Handles input and updates model/view
-
-Used in: ASP.NET MVC, Ruby on Rails
-
-### 🔹 MVVM (Model-View-ViewModel)
-- **Model**: Data and logic
-- **View**: UI
-- **ViewModel**: Binds model to view and handles presentation logic
-
-Used in: WPF, Angular, Vue.js
-
----
-
-## 🔗 JSON and API Communication (B2B)
-
-### What is JSON?
-**JSON (JavaScript Object Notation)** is a lightweight data-interchange format used in APIs.
-
-### Why Use JSON in B2B API Calls?
-- Easy to parse and human-readable
-- Platform and language-independent
-- Ideal for modern RESTful APIs
-
-### Example:
-```json
-{
-  "orderId": 101,
-  "status": "confirmed",
-  "items": [
-    { "product": "Keyboard", "qty": 2 },
-    { "product": "Mouse", "qty": 1 }
-  ]
-}
-```
-
----
-
-## 📚 Helpful Resources
-- [What is a Web Server – Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/web-server/)
-- [Client-Server Model – MDN](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Client-Server_overview)
-- [MVC Explained – GeeksforGeeks](https://www.geeksforgeeks.org/mvc-framework-introduction/)
-- [Nginx vs Apache – Hostinger](https://www.hostinger.com/tutorials/nginx-vs-apache)
-- [JSON Basics – W3Schools](https://www.w3schools.com/js/js_json_intro.asp)
-
----
-
 
 # 🗄️ Beginner Guide to Databases: From Files to Cloud-Ready Systems
 
@@ -380,3 +276,111 @@ Popular RDBMS:
 ---
 
 Databases are the backbone of almost every IT system. Understanding how they evolved and how to use the right one for the right task is key to becoming a successful developer or data specialist.
+
+
+# Day - 3
+
+# 🌐 Beginner Guide to Web Servers, Architectures, and Communication Models
+
+This guide introduces core web technologies and architecture concepts to help beginners understand how modern web applications are built and deployed.
+
+---
+
+## 🧭 What is a Web Server?
+
+A **web server** is a software or hardware system that delivers web content (such as HTML pages, images, and APIs) to clients (browsers or applications) over the internet or intranet.
+
+### 🔧 Common Uses of Web Servers
+- Hosting websites
+- Serving REST APIs for applications
+- Load balancing
+- SSL/TLS security management
+- Content caching
+
+### 🖥️ Popular Web Servers
+
+| Web Server | Description | Platform |
+|------------|-------------|----------|
+| **Apache HTTP Server** | Open-source, flexible, widely used | Cross-platform |
+| **Nginx** | Lightweight, high performance, ideal for static content & reverse proxy | Cross-platform |
+| **Microsoft IIS** | Windows-based, integrates with .NET stack | Windows only |
+
+---
+
+## 🧑‍💻 Client-Server Architecture
+
+In this model:
+- **Client**: Requests resources or services (e.g., browsers, mobile apps).
+- **Server**: Provides resources (e.g., web pages, database data).
+
+Client-server enables **separation of concerns**, scalability, and distributed computing.
+
+---
+
+## 🏗️ N-Tier Architecture
+
+N-Tier (multi-tier) architecture divides the system into multiple layers or tiers.
+
+### Common Layers:
+1. **Presentation Layer** – UI (React, Angular, etc.)
+2. **Application/Business Logic Layer** – Processes commands, logic (Node.js, .NET, Java)
+3. **Data Layer** – Handles data operations (SQL, MongoDB, etc.)
+
+Benefits:
+- Better maintainability
+- Scalability
+- Separation of concerns
+
+---
+
+## 🔀 MVC vs MVVM Architecture
+
+### 🔸 MVC (Model-View-Controller)
+- **Model**: Manages data and business logic
+- **View**: UI presentation layer
+- **Controller**: Handles input and updates model/view
+
+Used in: ASP.NET MVC, Ruby on Rails
+
+### 🔹 MVVM (Model-View-ViewModel)
+- **Model**: Data and logic
+- **View**: UI
+- **ViewModel**: Binds model to view and handles presentation logic
+
+Used in: WPF, Angular, Vue.js
+
+---
+
+## 🔗 JSON and API Communication (B2B)
+
+### What is JSON?
+**JSON (JavaScript Object Notation)** is a lightweight data-interchange format used in APIs.
+
+### Why Use JSON in B2B API Calls?
+- Easy to parse and human-readable
+- Platform and language-independent
+- Ideal for modern RESTful APIs
+
+### Example:
+```json
+{
+  "orderId": 101,
+  "status": "confirmed",
+  "items": [
+    { "product": "Keyboard", "qty": 2 },
+    { "product": "Mouse", "qty": 1 }
+  ]
+}
+```
+
+---
+
+## 📚 Helpful Resources
+- [What is a Web Server – Cloudflare](https://www.cloudflare.com/learning/ddos/glossary/web-server/)
+- [Client-Server Model – MDN](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Client-Server_overview)
+- [MVC Explained – GeeksforGeeks](https://www.geeksforgeeks.org/mvc-framework-introduction/)
+- [Nginx vs Apache – Hostinger](https://www.hostinger.com/tutorials/nginx-vs-apache)
+- [JSON Basics – W3Schools](https://www.w3schools.com/js/js_json_intro.asp)
+
+---
+
