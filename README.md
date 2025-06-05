@@ -384,3 +384,93 @@ Used in: WPF, Angular, Vue.js
 
 ---
 
+# Day - 4
+
+
+# Introduction to Fullstack Development
+
+## What is Fullstack Development?
+Fullstack development refers to the ability to work on both the **frontend** (client-side) and **backend** (server-side) of a web application. A fullstack developer has knowledge of:
+- Frontend: HTML, CSS, JavaScript, UI/UX design
+- Backend: Server-side scripting, database management, APIs
+
+## Popular Fullstack Stacks
+
+### 1. **MERN Stack** (Open Source)
+- **MongoDB** – NoSQL Database
+- **Express.js** – Backend Framework
+- **React.js** – Frontend Library
+- **Node.js** – Runtime Environment
+
+### 2. **MEAN Stack**
+- **MongoDB**
+- **Express.js**
+- **Angular** – Frontend Framework
+- **Node.js**
+
+### 3. **.NET Stack**
+- Uses **ASP.NET Core** for backend
+- **SQL Server** as the database
+- Frontend with **Blazor**, **Razor Pages**, or SPA frameworks
+
+### 4. **Django Stack**
+- **Django** – Python backend framework
+- **PostgreSQL/MySQL** – Database
+- **React/HTML Templates** – Frontend
+
+### 5. **Spring Boot Stack**
+- **Spring Boot** – Java backend framework
+- Often used with **Thymeleaf** or frontend SPA frameworks
+- **MySQL/PostgreSQL** – Databases
+
+---
+
+## MERN vs MEAN: A Comparison
+
+| Feature        | MERN Stack              | MEAN Stack            |
+|----------------|-------------------------|------------------------|
+| Frontend       | React.js (Library)      | Angular (Framework)    |
+| Learning Curve | Easier to adopt         | Steeper learning curve |
+| Performance    | Fast with virtual DOM   | Heavy with two-way data binding |
+| Flexibility    | High (unopinionated)    | Opinionated structure  |
+| Community      | Large and growing       | Mature and stable      |
+
+---
+
+## Framework vs Library vs Package vs Module
+
+### Framework
+A framework is a full structure to build applications. It calls your code.
+- Examples: Angular, Django, Spring
+
+### Library
+A library provides specific functionality you can call as needed.
+- Examples: React, jQuery, Lodash
+
+### Package
+A package is a bundle of code (libraries, tools, etc.) distributed via package managers like NPM or PyPI.
+
+### Module
+A module is a single file or unit of code that can be reused in your app.
+
+---
+
+## Open Source vs Proprietary Stacks
+
+| Category      | Open Source Stack (MERN, Django) | Proprietary Stack (.NET) |
+|---------------|-----------------------------------|---------------------------|
+| Cost          | Free                              | May require licenses      |
+| Flexibility   | High                              | Moderate                  |
+| Community     | Large                             | Microsoft-driven          |
+| Deployment    | Flexible                          | Azure-optimized           |
+
+---
+
+## Conclusion
+Fullstack development enables developers to build complete applications from frontend to backend. Choosing a stack depends on your project needs, team skills, and scalability requirements.
+
+### Further Reading:
+- [MERN vs MEAN – Simplilearn](https://www.simplilearn.com/mean-vs-mern-article)
+- [Django Overview – Official Site](https://www.djangoproject.com/start/)
+- [Spring Boot – Spring.io](https://spring.io/projects/spring-boot)
+- [.NET Overview – Microsoft](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet)
