@@ -483,6 +483,20 @@ A step-by-step guide to help beginners get started with Git using essential comm
 
 ---
 
+## Download Git
+
+[Git](https://git-scm.com/downloads)
+
+[Git Windows](https://git-scm.com/downloads/win)
+
+[Download](https://github.com/git-for-windows/git/releases/download/v2.49.0.windows.1/Git-2.49.0-64-bit.exe)
+
+- Open the terminal (windows key + cmd)
+
+```
+>git -v
+```
+
 ## 1. Setup Git
 
 ```bash
@@ -625,6 +639,7 @@ git branch -d branch-name
 - Always commit with meaningful messages.
 - Use `.gitignore` to exclude files from tracking.
 - Use `git stash` to temporarily store changes.
+- Sadeed added this line.
 
 ---
 
