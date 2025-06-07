@@ -474,3 +474,158 @@ Fullstack development enables developers to build complete applications from fro
 - [Django Overview – Official Site](https://www.djangoproject.com/start/)
 - [Spring Boot – Spring.io](https://spring.io/projects/spring-boot)
 - [.NET Overview – Microsoft](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet)
+
+# Day - 5
+
+# Git Commands for Beginners
+
+A step-by-step guide to help beginners get started with Git using essential commands.
+
+---
+
+## 1. Setup Git
+
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+```
+
+## 2. Initialize a Repository (Local)
+
+```bash
+git init
+```
+
+> This creates a new `.git` folder in your project directory.
+
+---
+
+## 3. Clone a Repository (Remote to Local)
+
+```bash
+git clone https://github.com/username/repo-name.git
+```
+
+> This downloads a copy of the remote repo to your local system.
+
+---
+
+## 4. Check Repository Status
+
+```bash
+git status
+```
+
+> Shows the status of changes (staged, unstaged, untracked).
+
+---
+
+## 5. Add Files to Staging Area
+
+```bash
+git add filename
+# or to add all files
+git add .
+```
+
+---
+
+## 6. Commit Changes
+
+```bash
+git commit -m "Your meaningful commit message"
+```
+
+---
+
+## 7. View Commit History
+
+```bash
+git log
+```
+
+---
+
+## 8. Fetch Changes from Remote
+
+```bash
+git fetch origin
+```
+
+> Downloads changes but does not merge them into your branch.
+
+---
+
+## 9. Pull Changes (Fetch + Merge)
+
+```bash
+git pull origin main
+```
+
+> Pulls and merges updates from the `main` branch.
+
+---
+
+## 10. Push Changes to Remote
+
+```bash
+git push origin main
+```
+
+> Pushes your commits to the remote repository.
+
+---
+
+## 11. Create and Switch Branches
+
+```bash
+git branch new-branch-name
+git checkout new-branch-name
+# or both at once
+git checkout -b new-branch-name
+```
+
+---
+
+## 12. Merge Branches
+
+```bash
+git checkout main
+git merge new-branch-name
+```
+
+---
+
+## 13. Check Remote Repositories
+
+```bash
+git remote -v
+```
+
+---
+
+## 14. Add a Remote Repository
+
+```bash
+git remote add origin https://github.com/username/repo-name.git
+```
+
+---
+
+## 15. Delete a Branch
+
+```bash
+git branch -d branch-name
+```
+
+---
+
+## Helpful Tips
+
+- Always commit with meaningful messages.
+- Use `.gitignore` to exclude files from tracking.
+- Use `git stash` to temporarily store changes.
+
+---
+
+Happy Git-ing! 🚀
